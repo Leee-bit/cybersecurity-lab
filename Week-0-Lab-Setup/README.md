@@ -160,7 +160,7 @@ https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
 2. Selecting "Use an existing virtual hard disk file" 
 3. Browsing to `Metasploitable.vmdk`
 
-**Default credentials:** `msfadmin` / `msfadmin`
+**Default credentials:** `m***` / `m***`
 
 > ⚠️ Metasploitable2 must **never** be exposed to an untrusted network. It is intentionally vulnerable to dozens of known exploits.
 
