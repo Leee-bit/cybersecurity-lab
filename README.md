@@ -1,4 +1,4 @@
-# 🛡️ Cybersecurity Home Lab — SOC Analyst Portfolio
+# 🛡️ Cybersecurity Home Lab 
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![Lab](https://img.shields.io/badge/Lab-Home%20SOC-blue)
