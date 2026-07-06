@@ -1,1 +1,111 @@
 
+# 🔍 Nmap Commands Cheatsheet
+
+Nmap (Network Mapper) is the industry-standard tool for network discovery and security scanning. Used in Projects 2, 4, 7, and 9.
+
+---
+
+## 🎯 Basic Scans
+
+| Command | What It Does |
+|---------|-------------|
+| `nmap <IP>` | Default scan (top 1000 ports) |
+| `nmap 192.168.248.4` | Scan Metasploitable2 |
+| `nmap 192.168.248.0/24` | Scan entire subnet |
+| `nmap -p 22 <IP>` | Scan specific port |
+| `nmap -p 1-1000 <IP>` | Scan port range |
+| `nmap -p- <IP>` | Scan ALL 65535 ports |
+
+---
+
+## 🔬 Scan Types
+
+| Command | Scan Type | Description |
+|---------|-----------|-------------|
+| `nmap -sS <IP>` | SYN (Stealth) | Half-open scan, harder to detect |
+| `nmap -sT <IP>` | TCP Connect | Full connection, more reliable |
+| `nmap -sU <IP>` | UDP | Scans UDP ports (slower) |
+| `nmap -sN <IP>` | NULL | No flags set |
+| `nmap -sF <IP>` | FIN | FIN flag only |
+| `nmap -sX <IP>` | XMAS | All flags set |
+| `nmap -sA <IP>` | ACK | Maps firewall rules |
+| `nmap -sn <IP>/24` | Ping sweep | Find live hosts only |
+
+---
+
+## 🧠 Detection & Enumeration
+
+| Command | What It Does |
+|---------|-------------|
+| `nmap -sV <IP>` | Detect service versions |
+| `nmap -O <IP>` | Detect operating system |
+| `nmap -A <IP>` | Aggressive (OS + version + scripts + traceroute) |
+| `nmap -sC <IP>` | Run default NSE scripts |
+| `nmap --script vuln <IP>` | Run vulnerability scripts |
+| `nmap --script ssh-brute <IP>` | SSH brute force |
+| `nmap --script http-enum <IP>` | Web directory enumeration |
+
+---
+
+## ⚡ Speed & Timing
+
+| Command | Timing | Use Case |
+|---------|--------|----------|
+| `nmap -T0 <IP>` | Paranoid | Slowest, evades IDS |
+| `nmap -T1 <IP>` | Sneaky | Slow, stealthy |
+| `nmap -T2 <IP>` | Polite | Slowed down |
+| `nmap -T3 <IP>` | Normal | Default |
+| `nmap -T4 <IP>` | Aggressive | Fast, common in labs |
+| `nmap -T5 <IP>` | Insane | Fastest, may miss results |
+
+---
+
+## 💾 Saving Output
+
+| Command | What It Does |
+|---------|-------------|
+| `nmap -oN output.txt <IP>` | Save as normal text |
+| `nmap -oX output.xml <IP>` | Save as XML |
+| `nmap -oG output.gnmap <IP>` | Save as grepable format |
+| `nmap -oA output <IP>` | Save in all three formats |
+
+---
+
+## 🔎 Lab-Specific Commands
+
+```bash
+# Full scan of Metasploitable2
+nmap -A -T4 192.168.248.4
+
+# Quick port discovery
+nmap -sS -T4 --top-ports 100 192.168.248.4
+
+# Save results for Splunk analysis
+nmap -oN /root/scans/meta-scan.txt 192.168.248.4
+
+# Find all live hosts in lab network
+nmap -sn 192.168.248.0/24
+```
+
+---
+
+## 📖 Reading Nmap Output
+
+```
+PORT     STATE    SERVICE    VERSION
+22/tcp   open     ssh        OpenSSH 4.7p1
+80/tcp   open     http       Apache 2.2.8
+3306/tcp open     mysql      MySQL 5.0.51a
+```
+
+| Field | Meaning |
+|-------|---------|
+| PORT | Port number and protocol |
+| STATE | open/closed/filtered |
+| SERVICE | What service runs on this port |
+| VERSION | Specific version detected |
+
+**States:**
+- `open` → service is running and accepting connections
+- `closed` → port accessible but no service running
+- `filtered` → firewall is blocking the port
