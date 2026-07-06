@@ -1,0 +1,173 @@
+# 🐉 Kali Linux Commands Cheatsheet
+
+A quick reference for essential Kali Linux terminal commands used across all lab projects.
+
+---
+
+## 📁 Navigation
+
+| Command | What It Does | Example |
+|---------|-------------|---------|
+| `pwd` | Show current directory | `pwd` → `/root` |
+| `ls` | List files in directory | `ls -la` |
+| `cd <folder>` | Change directory | `cd /var/log` |
+| `cd ..` | Go up one level | `cd ..` |
+| `mkdir <name>` | Create new folder | `mkdir results` |
+| `cat <file>` | Display file contents | `cat auth.log` |
+| `nano <file>` | Open file in text editor | `nano config.txt` |
+| `cp <src> <dst>` | Copy file | `cp file.txt backup/` |
+| `mv <src> <dst>` | Move or rename file | `mv old.txt new.txt` |
+| `rm <file>` | Delete file | `rm temp.txt` |
+
+---
+
+## 🌐 Networking
+
+| Command | What It Does | Example |
+|---------|-------------|---------|
+| `ip a` | Show all network interfaces and IPs | `ip a` |
+| `ping <IP>` | Test connectivity to a host | `ping 192.168.248.4` |
+| `ping -c 4 <IP>` | Ping exactly 4 times then stop | `ping -c 4 192.168.248.4` |
+| `ifconfig` | Show network interfaces (older systems) | `ifconfig` |
+| `netstat -an` | Show all active network connections | `netstat -an` |
+| `ss -tulnp` | Show listening ports | `ss -tulnp` |
+| `route -n` | Show routing table | `route -n` |
+| `traceroute <IP>` | Trace path to a host | `traceroute 192.168.248.4` |
+
+---
+
+## 🔍 Nmap (Network Scanner)
+
+| Command | What It Does |
+|---------|-------------|
+| `nmap <IP>` | Basic port scan |
+| `nmap -sV <IP>` | Detect service versions |
+| `nmap -sS <IP>` | Stealth SYN scan |
+| `nmap -sU <IP>` | UDP scan |
+| `nmap -A <IP>` | Aggressive scan (OS + version + scripts) |
+| `nmap -p 22 <IP>` | Scan specific port |
+| `nmap -p 1-1000 <IP>` | Scan port range |
+| `nmap -sn 192.168.248.0/24` | Ping sweep (find live hosts) |
+| `nmap -oN output.txt <IP>` | Save results to file |
+
+---
+
+## 💥 Metasploit Framework
+
+| Command | What It Does |
+|---------|-------------|
+| `msfconsole` | Start Metasploit |
+| `search <term>` | Search for exploits/modules |
+| `use <module>` | Load a module |
+| `show options` | Show required settings |
+| `set RHOSTS <IP>` | Set target IP |
+| `set LHOST <IP>` | Set attacker IP |
+| `run` or `exploit` | Execute the module |
+| `sessions` | List active sessions |
+| `sessions -i <id>` | Interact with a session |
+| `background` | Background current session |
+| `exit` | Exit Metasploit |
+
+---
+
+## 🔐 Hydra (Brute Force)
+
+| Command | What It Does |
+|---------|-------------|
+| `hydra -l admin -P wordlist.txt <IP> ssh` | SSH brute force with username 'admin' |
+| `hydra -L users.txt -P pass.txt <IP> ssh` | SSH brute force with user list |
+| `hydra -l root -P wordlist.txt <IP> ftp` | FTP brute force |
+| `hydra -t 4 -l admin -P pass.txt <IP> ssh` | Limit to 4 threads |
+| `hydra -V -l admin -P pass.txt <IP> ssh` | Verbose output (show attempts) |
+
+---
+
+## 🦈 Wireshark / tcpdump
+
+| Command | What It Does |
+|---------|-------------|
+| `wireshark` | Open Wireshark GUI |
+| `tcpdump -i eth0` | Capture traffic on eth0 |
+| `tcpdump -i eth0 port 22` | Capture only SSH traffic |
+| `tcpdump -i eth0 -w capture.pcap` | Save capture to file |
+| `tcpdump -r capture.pcap` | Read saved capture file |
+
+---
+
+## 🐚 Netcat (Network Swiss Army Knife)
+
+| Command | What It Does |
+|---------|-------------|
+| `nc -lvp 4444` | Listen on port 4444 |
+| `nc <IP> 4444` | Connect to a listener |
+| `nc -u <IP> 514` | Send UDP packet |
+| `echo "test" \| nc -u <IP> 514` | Send text via UDP |
+| `nc -zv <IP> 1-100` | Port scan range 1-100 |
+
+---
+
+## 📋 Log Analysis
+
+| Command | What It Does |
+|---------|-------------|
+| `cat /var/log/auth.log` | View authentication logs |
+| `tail -f /var/log/auth.log` | Watch logs in real time |
+| `grep "Failed" /var/log/auth.log` | Search for failed logins |
+| `grep "ssh" /var/log/auth.log` | Filter SSH events |
+| `wc -l /var/log/auth.log` | Count log lines |
+| `logger "test message"` | Manually generate a syslog entry |
+
+---
+
+## 🖥️ System Info
+
+| Command | What It Does |
+|---------|-------------|
+| `whoami` | Show current user |
+| `id` | Show user ID and groups |
+| `uname -a` | Show OS and kernel info |
+| `ps aux` | List all running processes |
+| `ps aux \| grep <name>` | Search for specific process |
+| `top` | Live process monitor |
+| `df -h` | Show disk usage |
+| `free -h` | Show memory usage |
+| `history` | Show command history |
+
+---
+
+## 🔧 Services
+
+| Command | What It Does |
+|---------|-------------|
+| `service <name> start` | Start a service |
+| `service <name> stop` | Stop a service |
+| `service <name> restart` | Restart a service |
+| `service <name> status` | Check service status |
+| `systemctl start <name>` | Start service (modern Linux) |
+| `systemctl enable <name>` | Start service on boot |
+
+---
+
+## 📦 Package Management
+
+| Command | What It Does |
+|---------|-------------|
+| `apt update` | Refresh package list |
+| `apt upgrade -y` | Install all updates |
+| `apt install <package>` | Install a package |
+| `apt remove <package>` | Remove a package |
+| `apt search <term>` | Search for a package |
+
+---
+
+## ⌨️ Useful Keyboard Shortcuts
+
+| Shortcut | What It Does |
+|----------|-------------|
+| `Ctrl+C` | Stop current command |
+| `Ctrl+Z` | Suspend current command |
+| `Ctrl+L` | Clear terminal screen |
+| `Tab` | Auto-complete command or filename |
+| `↑ Arrow` | Recall previous command |
+| `Ctrl+A` | Jump to start of line |
+| `Ctrl+E` | Jump to end of line |
