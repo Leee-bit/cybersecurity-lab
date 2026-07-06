@@ -1,1 +1,234 @@
 
+# 📊 Splunk SPL Cheatsheet
+
+SPL (Search Processing Language) is the query language used in Splunk to search, filter, and analyse log data. This cheatsheet covers everything needed for the 9 lab projects.
+
+---
+
+## 🔎 Basic Search Syntax
+
+```spl
+index=lab_logs                          ← Search all logs in lab_logs index
+index=lab_logs sourcetype=syslog        ← Filter by source type
+index=lab_logs "Failed password"        ← Search for keyword
+index=lab_logs host=metasploitable      ← Filter by hostname
+index=lab_logs src_ip=192.168.248.3     ← Filter by source IP
+index=* earliest=-24h latest=now        ← Last 24 hours across all indexes
+```
+
+---
+
+## 🔑 Essential SPL Commands
+
+| Command | What It Does | Example |
+|---------|-------------|---------|
+| `search` | Filter events | `search "Failed password"` |
+| `fields` | Keep or remove fields | `fields src_ip, user, action` |
+| `table` | Display results as table | `table _time, src_ip, user` |
+| `stats` | Calculate statistics | `stats count by src_ip` |
+| `sort` | Sort results | `sort -count` |
+| `head` | Show first N results | `head 10` |
+| `tail` | Show last N results | `tail 10` |
+| `dedup` | Remove duplicates | `dedup src_ip` |
+| `rename` | Rename a field | `rename src_ip as "Source IP"` |
+| `eval` | Create calculated field | `eval risk=count*10` |
+| `rex` | Extract fields with regex | `rex field=_raw "user=(?<username>\w+)"` |
+| `timechart` | Chart over time | `timechart count by src_ip` |
+| `chart` | Create charts | `chart count by user` |
+| `where` | Filter with conditions | `where count > 5` |
+| `join` | Join two searches | `join src_ip [search index=blocklist]` |
+
+---
+
+## 🚨 SSH Brute Force Detection (Project 1)
+
+```spl
+-- Find all failed SSH login attempts
+index=lab_logs "Failed password"
+| table _time, src_ip, user, host
+
+-- Count failed attempts per source IP
+index=lab_logs "Failed password"
+| stats count by src_ip
+| sort -count
+
+-- Alert threshold: more than 5 failures from one IP
+index=lab_logs "Failed password"
+| stats count by src_ip
+| where count > 5
+| sort -count
+
+-- Timeline of brute force attack
+index=lab_logs "Failed password"
+| timechart span=1m count by src_ip
+
+-- Find successful login after brute force (compromise indicator)
+index=lab_logs ("Failed password" OR "Accepted password")
+| stats count(eval(match(_raw,"Failed"))) as failures,
+        count(eval(match(_raw,"Accepted"))) as successes by src_ip
+| where failures > 5 AND successes > 0
+```
+
+---
+
+## 🔍 Port Scan Detection (Project 2)
+
+```spl
+-- Detect multiple port connections from one IP
+index=lab_logs
+| stats dc(dest_port) as unique_ports by src_ip
+| where unique_ports > 10
+| sort -unique_ports
+
+-- Find SYN scan activity
+index=lab_logs tcp_flag=SYN
+| stats count by src_ip
+| where count > 100
+
+-- Detect rapid sequential port access
+index=lab_logs
+| bin _time span=1m
+| stats dc(dest_port) as ports_per_min by _time, src_ip
+| where ports_per_min > 20
+```
+
+---
+
+## 🐚 Reverse Shell Detection (Project 3)
+
+```spl
+-- Detect unusual outbound connections
+index=lab_logs dest_port!=80 dest_port!=443
+| stats count by src_ip, dest_ip, dest_port
+| sort -count
+
+-- Find netcat connections
+index=lab_logs "nc" OR "netcat" OR "/bin/sh" OR "/bin/bash"
+| table _time, src_ip, dest_ip, dest_port, _raw
+
+-- Detect suspicious outbound ports
+index=lab_logs dest_port IN (4444, 1234, 9999, 6666, 7777)
+| table _time, src_ip, dest_ip, dest_port
+```
+
+---
+
+## 🌐 Web Attack Detection (Project 8)
+
+```spl
+-- SQL injection attempts
+index=lab_logs ("SELECT" OR "UNION" OR "DROP" OR "INSERT" OR "1=1")
+| table _time, src_ip, uri, status
+
+-- XSS attempts
+index=lab_logs ("<script>" OR "javascript:" OR "onerror=")
+| table _time, src_ip, uri
+
+-- HTTP error spike (possible scanning)
+index=lab_logs status=404
+| timechart span=1m count by src_ip
+| where count > 20
+
+-- Encoded payloads in URL
+index=lab_logs uri="*%3C*" OR uri="*%27*" OR uri="*%22*"
+| table _time, src_ip, uri, status
+```
+
+---
+
+## 📡 Beaconing Detection (Project 6)
+
+```spl
+-- Detect regular interval connections (C2 beaconing)
+index=lab_logs
+| bin _time span=1m
+| stats count by _time, src_ip, dest_ip
+| streamstats avg(count) as avg_count by src_ip, dest_ip
+| eval deviation=abs(count-avg_count)
+| where deviation < 2
+
+-- Find connections at regular intervals
+index=lab_logs
+| stats count by src_ip, dest_ip
+| where count > 50
+```
+
+---
+
+## 📈 Time-Based Searches
+
+```spl
+earliest=-15m                 ← Last 15 minutes
+earliest=-1h                  ← Last 1 hour
+earliest=-24h                 ← Last 24 hours
+earliest=-7d                  ← Last 7 days
+earliest=0                    ← All time
+
+-- Example: SSH failures in last hour
+index=lab_logs "Failed password" earliest=-1h
+| stats count by src_ip
+```
+
+---
+
+## 📊 Useful Stats Functions
+
+```spl
+stats count by src_ip              ← Count events per IP
+stats dc(dest_port) by src_ip      ← Count unique ports per IP
+stats avg(count) by src_ip         ← Average count per IP
+stats max(count) by src_ip         ← Maximum count per IP
+stats min(count) by src_ip         ← Minimum count per IP
+stats sum(bytes) by src_ip         ← Total bytes per IP
+stats values(user) by src_ip       ← List unique users per IP
+stats first(_time) by src_ip       ← First event time per IP
+stats last(_time) by src_ip        ← Last event time per IP
+```
+
+---
+
+## 🔔 Creating Alerts in Splunk
+
+1. Run your detection search
+2. Click **Save As → Alert**
+3. Set:
+   - **Title:** descriptive name (e.g. "SSH Brute Force Detected")
+   - **Alert type:** Scheduled (e.g. every 5 minutes)
+   - **Trigger condition:** Number of results > 0
+   - **Action:** Add to Triggered Alerts (or email)
+
+---
+
+## 📋 Creating Dashboards
+
+1. Run your search
+2. Click **Save As → Dashboard Panel**
+3. Choose visualization type:
+   - **Line chart** → for timechart results
+   - **Bar chart** → for stats by category
+   - **Single value** → for total counts
+   - **Table** → for detailed event lists
+4. Add multiple panels to one dashboard for a full SOC view
+
+---
+
+## 🏷️ Common Source Types
+
+| Source Type | Log Source |
+|------------|-----------|
+| `syslog` | Linux system logs |
+| `linux_secure` | Linux auth logs |
+| `access_combined` | Apache/web server logs |
+| `WinEventLog` | Windows event logs |
+| `snort` | IDS/Snort alerts |
+
+---
+
+## 💡 SPL Tips
+
+- Use `*` as wildcard: `"Failed*"` matches "Failed password", "Failed login" etc.
+- Field names are case-sensitive: `src_ip` ≠ `Src_IP`
+- Pipe `|` chains commands together — read left to right
+- Always specify `index=` to speed up searches
+- Use time picker to narrow results before running heavy queries
+- `Ctrl+\` in search bar formats your SPL for readability
