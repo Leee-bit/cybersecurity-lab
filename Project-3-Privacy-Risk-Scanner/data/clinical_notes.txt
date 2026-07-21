@@ -1,0 +1,80 @@
+Note #1: Patient Connor Waters (NHI ZVG0977) presented with chronic respiratory failure. Contact on file: adambryant@example.com / 902-9321. Recommend follow-up in 4 weeks.
+
+Note #2: Patient Sean Anderson-Montgomery (NHI GRP5627) presented with sleep apnea. Contact on file: michael82@example.com / +64 20 834 0848. Recommend follow-up in 4 weeks.
+
+Note #3: Patient Mark Dillon (NHI GBN8212) presented with asthma. Contact on file: anna83@example.net / 403-0324. Recommend follow-up in 4 weeks.
+
+Note #4: Patient Matthew Reid (NHI GTQ9763) presented with COPD. Contact on file: joseph96@example.org / (029) 546-2671. Recommend follow-up in 4 weeks.
+
+Note #5: Patient Tracey Turner (NHI GSM7830) presented with COPD. Contact on file: brianperano@example.net / +64 27 359-8926. Recommend follow-up in 4 weeks.
+
+Note #6: Patient Miriama Nicholson (NHI QVW7436) presented with hypertension. Contact on file: burnettjayden@example.com / 281-8615. Recommend follow-up in 4 weeks.
+
+Note #7: Patient Suzanne Craig (NHI RFT3671) presented with COPD. Contact on file: nicolabailey@example.org / 963-6112. Recommend follow-up in 4 weeks.
+
+Note #8: Patient Mark Best-Scott (NHI MMM9926) presented with post-surgical recovery. Contact on file: fiona48@example.com / (021) 9025625. Recommend follow-up in 4 weeks.
+
+Note #9: Patient Lynley Linton (NHI MDW0946) presented with chronic respiratory failure. Contact on file: qgibbons@example.org / +64 7 122 2694. Recommend follow-up in 4 weeks.
+
+Note #10: Patient Nicole Parker (NHI SAY6949) presented with asthma. Contact on file: loleary@example.com / 06-584-4683. Recommend follow-up in 4 weeks.
+
+Note #11: Patient Warren O'Connor (NHI GGV2546) presented with COPD. Contact on file: megan11@example.net / 021 829 0148. Recommend follow-up in 4 weeks.
+
+Note #12: Patient William Rush (NHI TQE3615) presented with hypertension. Contact on file: samuelpickering@example.net / +6477160930. Recommend follow-up in 4 weeks.
+
+Note #13: Patient Rachael Jensen (NHI ABK5637) presented with type 2 diabetes. Contact on file: stratfordtania@example.net / +6476321528. Recommend follow-up in 4 weeks.
+
+Note #14: Patient Jason Fisher (NHI EAC9689) presented with hypertension. Contact on file: teresa53@example.net / +64-21-144-7443. Recommend follow-up in 4 weeks.
+
+Note #15: Patient Jean Boon-McFarlane (NHI CYC6376) presented with asthma. Contact on file: wallerpoppy@example.com / 650 9754. Recommend follow-up in 4 weeks.
+
+Note #16: Patient Aaron Neilson (NHI ZXS2496) presented with type 2 diabetes. Contact on file: oliversmith@example.com / (027) 818 8261. Recommend follow-up in 4 weeks.
+
+Note #17: Patient Christopher Fitzgerald (NHI USS7272) presented with sleep apnea. Contact on file: ryanboyce@example.com / 022 3841772. Recommend follow-up in 4 weeks.
+
+Note #18: Patient Piper Smith (NHI KHB9244) presented with COPD. Contact on file: craigmorris@example.org / 04 2502374. Recommend follow-up in 4 weeks.
+
+Note #19: Patient Kathryn Cresswell (NHI QEM1726) presented with post-surgical recovery. Contact on file: lukeblair@example.com / (04) 621-1022. Recommend follow-up in 4 weeks.
+
+Note #20: Patient Alice Chandler (NHI TCB5248) presented with COPD. Contact on file: pattersonmartin@example.net / +64 20 767-4471. Recommend follow-up in 4 weeks.
+
+Note #21: Patient Matthew Miles (NHI RAA3133) presented with sleep apnea. Contact on file: jeffreyfulton@example.com / +64 27 363-7189. Recommend follow-up in 4 weeks.
+
+Note #22: Patient Tama Gibbons (NHI NYM4877) presented with chronic respiratory failure. Contact on file: jamesstewart@example.org / 027 126-0931. Recommend follow-up in 4 weeks.
+
+Note #23: Patient Jessica Jenkins (NHI FKS7159) presented with type 2 diabetes. Contact on file: jacobmcewen@example.org / (04) 604-1454. Recommend follow-up in 4 weeks.
+
+Note #24: Patient Elizabeth Strawbridge (NHI SKR9059) presented with sleep apnea. Contact on file: arlotaylor@example.net / 027-347-4916. Recommend follow-up in 4 weeks.
+
+Note #25: Patient Warren O'Sullivan-Johnston (NHI WUG2596) presented with type 2 diabetes. Contact on file: foxella@example.org / 03-559-8953. Recommend follow-up in 4 weeks.
+
+Note #26: Patient Mark Thompson (NHI SXR3067) presented with COPD. Contact on file: stewartjanine@example.org / 993 3711. Recommend follow-up in 4 weeks.
+
+Note #27: Patient Helen Forbes-Burr (NHI AAZ2376) presented with post-surgical recovery. Contact on file: timothysimpson@example.org / 04 284 8557. Recommend follow-up in 4 weeks.
+
+Note #28: Patient Anita Pedersen (NHI NWL9007) presented with sleep apnea. Contact on file: evansjoseph@example.org / 020 990-3678. Recommend follow-up in 4 weeks.
+
+Note #29: Patient Christopher Walton (NHI KFR5985) presented with hypertension. Contact on file: ymcgregor@example.com / (029) 1320293. Recommend follow-up in 4 weeks.
+
+Note #30: Patient Julie Tucker (NHI PYA1649) presented with sleep apnea. Contact on file: kim34@example.net / 07 512-3083. Recommend follow-up in 4 weeks.
+
+Note #31: Patient Michael Clunies-Ross (NHI FRA6980) presented with chronic respiratory failure. Contact on file: sarah40@example.net / 027 681 0595. Recommend follow-up in 4 weeks.
+
+Note #32: Patient Vincent Guthrie (NHI EQV1472) presented with asthma. Contact on file: helen69@example.com / 020-105-3424. Recommend follow-up in 4 weeks.
+
+Note #33: Patient Michele McIsaac (NHI EJW7416) presented with chronic respiratory failure. Contact on file: barremily@example.net / 09 483-7354. Recommend follow-up in 4 weeks.
+
+Note #34: Patient Mary Davison-Black (NHI DWV7531) presented with COPD. Contact on file: umason@example.com / 022-371-7272. Recommend follow-up in 4 weeks.
+
+Note #35: Patient Luke Croad (NHI UEJ1251) presented with asthma. Contact on file: chloesmith@example.org / +64227693121. Recommend follow-up in 4 weeks.
+
+Note #36: Patient John Curtis (NHI WQU0401) presented with sleep apnea. Contact on file: hharris@example.org / +64 20 191-6601. Recommend follow-up in 4 weeks.
+
+Note #37: Patient Caleb Hook (NHI SQG6741) presented with COPD. Contact on file: david90@example.org / +64 21 8851327. Recommend follow-up in 4 weeks.
+
+Note #38: Patient George Webster (NHI RNK9601) presented with post-surgical recovery. Contact on file: blairrutherford@example.net / (021) 900-1841. Recommend follow-up in 4 weeks.
+
+Note #39: Patient Carolyn Lancaster (NHI QCV3451) presented with chronic respiratory failure. Contact on file: adamsnathan@example.com / +64 29 436 1721. Recommend follow-up in 4 weeks.
+
+Note #40: Patient Wayne Miller (NHI ZQW9546) presented with COPD. Contact on file: dunndaniel@example.org / +64203922685. Recommend follow-up in 4 weeks.
+

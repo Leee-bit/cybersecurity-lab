@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Privacy Risk Register - Synthetic Healthcare Data Scan</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #171a21;
+    --border: #2a2e38;
+    --text: #e6e8ec;
+    --muted: #9aa1ac;
+    --accent: #4fa3ff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    padding: 40px;
+  }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  .subtitle { color: var(--muted); font-size: 13px; margin-bottom: 28px; }
+  .summary {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+  }
+  .stat {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 20px;
+    min-width: 140px;
+  }
+  .stat .num { font-size: 26px; font-weight: 600; }
+  .stat .label { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 13px;
+  }
+  th {
+    text-align: left;
+    padding: 10px 12px;
+    background: #1d2129;
+    color: var(--muted);
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    border-bottom: 1px solid var(--border);
+  }
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  tr:last-child td { border-bottom: none; }
+  .badge {
+    padding: 3px 9px;
+    border-radius: 100px;
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+  }
+  footer {
+    margin-top: 24px;
+    font-size: 11px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+  <h1>Privacy Risk Register</h1>
+  <div class="subtitle">Synthetic healthcare dataset scan &middot; generated 21 Jul 2026, 12:04</div>
+
+  <div class="summary">
+    <div class="stat"><div class="num">2186</div><div class="label">PII/PHI instances found</div></div>
+    <div class="stat"><div class="num">10</div><div class="label">Data categories</div></div>
+    <div class="stat"><div class="num" style="color:#B3261E">6</div><div class="label">Critical risk categories</div></div>
+    <div class="stat"><div class="num" style="color:#C4590C">4</div><div class="label">High risk categories</div></div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Data Type</th>
+        <th>Instances</th>
+        <th>Files Affected</th>
+        <th>Sensitivity (1-5)</th>
+        <th>Likelihood (1-5)</th>
+        <th>Risk Score</th>
+        <th>Risk Level</th>
+        <th>Privacy Act 2020 IPP</th>
+        <th>ISO 27799 Ref</th>
+        <th>Recommended Control</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+          <td><strong>Nhi Number</strong></td>
+          <td>340</td>
+          <td>clinical_notes.txt, patients.csv</td>
+          <td>5</td>
+          <td>5</td>
+          <td>25</td>
+          <td><span class="badge" style="background:#B3261E">CRITICAL</span></td>
+          <td>IPP 5 & 11 - Storage security / Limits on disclosure</td>
+          <td>7.4 - Unique patient identification controls</td>
+          <td>Tokenise or encrypt at rest; restrict export capability</td>
+        </tr>
+        <tr>
+          <td><strong>Health Condition</strong></td>
+          <td>150</td>
+          <td>patients.csv</td>
+          <td>5</td>
+          <td>5</td>
+          <td>25</td>
+          <td><span class="badge" style="background:#B3261E">CRITICAL</span></td>
+          <td>IPP 11 - Limits on disclosure (health info is highly sensitive)</td>
+          <td>6.1 - Health information security policy</td>
+          <td>Field-level encryption; role-based access only</td>
+        </tr>
+        <tr>
+          <td><strong>Clinical Text</strong></td>
+          <td>150</td>
+          <td>patients.csv</td>
+          <td>5</td>
+          <td>5</td>
+          <td>25</td>
+          <td><span class="badge" style="background:#B3261E">CRITICAL</span></td>
+          <td>IPP 11 - Limits on disclosure</td>
+          <td>8.1 - Handling of unstructured clinical records</td>
+          <td>Free-text redaction/DLP scanning before export</td>
+        </tr>
+        <tr>
+          <td><strong>Dob</strong></td>
+          <td>450</td>
+          <td>appointment_logs.csv, patients.csv</td>
+          <td>4</td>
+          <td>5</td>
+          <td>20</td>
+          <td><span class="badge" style="background:#B3261E">CRITICAL</span></td>
+          <td>IPP 11 - Limits on disclosure</td>
+          <td>7.3 - Data minimisation</td>
+          <td>Store age-band instead of full DOB where possible</td>
+        </tr>
+        <tr>
+          <td><strong>Policy Number</strong></td>
+          <td>342</td>
+          <td>appointment_logs.csv, patients.csv</td>
+          <td>4</td>
+          <td>5</td>
+          <td>20</td>
+          <td><span class="badge" style="background:#B3261E">CRITICAL</span></td>
+          <td>IPP 5 & 11 - Storage security / Limits on disclosure</td>
+          <td>7.4 - Unique identifier traceability</td>
+          <td>Mask in logs; treat as sensitive when paired with health/condition data</td>
+        </tr>
+        <tr>
+          <td><strong>Name</strong></td>
+          <td>150</td>
+          <td>patients.csv</td>
+          <td>4</td>
+          <td>5</td>
+          <td>20</td>
+          <td><span class="badge" style="background:#B3261E">CRITICAL</span></td>
+          <td>IPP 8 - Accuracy</td>
+          <td>7.2 - Access control to personal health information</td>
+          <td>Access restriction + audit logging on name fields</td>
+        </tr>
+        <tr>
+          <td><strong>Email</strong></td>
+          <td>235</td>
+          <td>appointment_logs.csv, clinical_notes.txt, patients.csv</td>
+          <td>3</td>
+          <td>5</td>
+          <td>15</td>
+          <td><span class="badge" style="background:#C4590C">HIGH</span></td>
+          <td>IPP 11 - Limits on disclosure</td>
+          <td>7.2 - Access control</td>
+          <td>Mask in logs; restrict third-party sharing</td>
+        </tr>
+        <tr>
+          <td><strong>Address</strong></td>
+          <td>150</td>
+          <td>patients.csv</td>
+          <td>3</td>
+          <td>5</td>
+          <td>15</td>
+          <td><span class="badge" style="background:#C4590C">HIGH</span></td>
+          <td>IPP 11 - Limits on disclosure</td>
+          <td>7.3 - Physical/contact data minimisation</td>
+          <td>Minimise retention; mask in non-production environments</td>
+        </tr>
+        <tr>
+          <td><strong>Insurance Info</strong></td>
+          <td>150</td>
+          <td>patients.csv</td>
+          <td>3</td>
+          <td>5</td>
+          <td>15</td>
+          <td><span class="badge" style="background:#C4590C">HIGH</span></td>
+          <td>IPP 11 - Limits on disclosure</td>
+          <td>7.3 - Financial/health data minimisation</td>
+          <td>Restrict to billing team access only; audit log access</td>
+        </tr>
+        <tr>
+          <td><strong>Phone Nz</strong></td>
+          <td>69</td>
+          <td>appointment_logs.csv, clinical_notes.txt, patients.csv</td>
+          <td>3</td>
+          <td>4</td>
+          <td>12</td>
+          <td><span class="badge" style="background:#C4590C">HIGH</span></td>
+          <td>IPP 11 - Limits on disclosure</td>
+          <td>7.2 - Access control</td>
+          <td>Mask in logs; restrict third-party sharing</td>
+        </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    All underlying data is synthetic (Faker-generated) for demonstration purposes only. No real patient or customer data was used.
+  </footer>
+</body>
+</html>

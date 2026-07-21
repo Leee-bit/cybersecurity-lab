@@ -1,0 +1,149 @@
+[
+  {
+    "type": "NHI_NUMBER",
+    "instances_found": 340,
+    "files_affected": [
+      "clinical_notes.txt",
+      "patients.csv"
+    ],
+    "sensitivity": 5,
+    "likelihood": 5,
+    "risk_score": 25,
+    "risk_level": "CRITICAL",
+    "ipp_reference": "IPP 5 & 11 - Storage security / Limits on disclosure",
+    "iso27799_reference": "7.4 - Unique patient identification controls",
+    "recommended_control": "Tokenise or encrypt at rest; restrict export capability"
+  },
+  {
+    "type": "HEALTH_CONDITION",
+    "instances_found": 150,
+    "files_affected": [
+      "patients.csv"
+    ],
+    "sensitivity": 5,
+    "likelihood": 5,
+    "risk_score": 25,
+    "risk_level": "CRITICAL",
+    "ipp_reference": "IPP 11 - Limits on disclosure (health info is highly sensitive)",
+    "iso27799_reference": "6.1 - Health information security policy",
+    "recommended_control": "Field-level encryption; role-based access only"
+  },
+  {
+    "type": "CLINICAL_TEXT",
+    "instances_found": 150,
+    "files_affected": [
+      "patients.csv"
+    ],
+    "sensitivity": 5,
+    "likelihood": 5,
+    "risk_score": 25,
+    "risk_level": "CRITICAL",
+    "ipp_reference": "IPP 11 - Limits on disclosure",
+    "iso27799_reference": "8.1 - Handling of unstructured clinical records",
+    "recommended_control": "Free-text redaction/DLP scanning before export"
+  },
+  {
+    "type": "DOB",
+    "instances_found": 450,
+    "files_affected": [
+      "appointment_logs.csv",
+      "patients.csv"
+    ],
+    "sensitivity": 4,
+    "likelihood": 5,
+    "risk_score": 20,
+    "risk_level": "CRITICAL",
+    "ipp_reference": "IPP 11 - Limits on disclosure",
+    "iso27799_reference": "7.3 - Data minimisation",
+    "recommended_control": "Store age-band instead of full DOB where possible"
+  },
+  {
+    "type": "POLICY_NUMBER",
+    "instances_found": 342,
+    "files_affected": [
+      "appointment_logs.csv",
+      "patients.csv"
+    ],
+    "sensitivity": 4,
+    "likelihood": 5,
+    "risk_score": 20,
+    "risk_level": "CRITICAL",
+    "ipp_reference": "IPP 5 & 11 - Storage security / Limits on disclosure",
+    "iso27799_reference": "7.4 - Unique identifier traceability",
+    "recommended_control": "Mask in logs; treat as sensitive when paired with health/condition data"
+  },
+  {
+    "type": "NAME",
+    "instances_found": 150,
+    "files_affected": [
+      "patients.csv"
+    ],
+    "sensitivity": 4,
+    "likelihood": 5,
+    "risk_score": 20,
+    "risk_level": "CRITICAL",
+    "ipp_reference": "IPP 8 - Accuracy",
+    "iso27799_reference": "7.2 - Access control to personal health information",
+    "recommended_control": "Access restriction + audit logging on name fields"
+  },
+  {
+    "type": "EMAIL",
+    "instances_found": 235,
+    "files_affected": [
+      "appointment_logs.csv",
+      "clinical_notes.txt",
+      "patients.csv"
+    ],
+    "sensitivity": 3,
+    "likelihood": 5,
+    "risk_score": 15,
+    "risk_level": "HIGH",
+    "ipp_reference": "IPP 11 - Limits on disclosure",
+    "iso27799_reference": "7.2 - Access control",
+    "recommended_control": "Mask in logs; restrict third-party sharing"
+  },
+  {
+    "type": "ADDRESS",
+    "instances_found": 150,
+    "files_affected": [
+      "patients.csv"
+    ],
+    "sensitivity": 3,
+    "likelihood": 5,
+    "risk_score": 15,
+    "risk_level": "HIGH",
+    "ipp_reference": "IPP 11 - Limits on disclosure",
+    "iso27799_reference": "7.3 - Physical/contact data minimisation",
+    "recommended_control": "Minimise retention; mask in non-production environments"
+  },
+  {
+    "type": "INSURANCE_INFO",
+    "instances_found": 150,
+    "files_affected": [
+      "patients.csv"
+    ],
+    "sensitivity": 3,
+    "likelihood": 5,
+    "risk_score": 15,
+    "risk_level": "HIGH",
+    "ipp_reference": "IPP 11 - Limits on disclosure",
+    "iso27799_reference": "7.3 - Financial/health data minimisation",
+    "recommended_control": "Restrict to billing team access only; audit log access"
+  },
+  {
+    "type": "PHONE_NZ",
+    "instances_found": 69,
+    "files_affected": [
+      "appointment_logs.csv",
+      "clinical_notes.txt",
+      "patients.csv"
+    ],
+    "sensitivity": 3,
+    "likelihood": 4,
+    "risk_score": 12,
+    "risk_level": "HIGH",
+    "ipp_reference": "IPP 11 - Limits on disclosure",
+    "iso27799_reference": "7.2 - Access control",
+    "recommended_control": "Mask in logs; restrict third-party sharing"
+  }
+]

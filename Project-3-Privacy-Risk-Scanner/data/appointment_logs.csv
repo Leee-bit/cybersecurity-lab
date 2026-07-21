@@ -1,0 +1,301 @@
+log_id,clinic,appointment_time,operator_note
+L00001,East Tamaki Respiratory Clinic,2026-01-31 05:29:52,Appointment confirmed via SMS.
+L00002,Auckland Sleep Centre,2026-01-30 22:30:51,"Routine reminder call, no issues."
+L00003,East Tamaki Respiratory Clinic,2026-03-04 14:55:26,"Routine reminder call, no issues."
+L00004,Northshore Community Health,2026-04-21 01:59:18,Appointment confirmed via SMS.
+L00005,Northshore Community Health,2026-03-07 03:16:46,Contacted patient Daniel Stratford to confirm appointment time.
+L00006,Auckland Sleep Centre,2026-03-10 21:41:40,Contacted patient Tanya Nelson to confirm appointment time.
+L00007,Auckland Sleep Centre,2026-03-31 02:58:00,Appointment confirmed via SMS.
+L00008,Northshore Community Health,2026-01-03 18:18:28,"Routine reminder call, no issues."
+L00009,Auckland Sleep Centre,2026-05-23 00:02:59,Contacted patient Kim Rowe-Boyce to confirm appointment time.
+L00010,Northshore Community Health,2026-06-04 14:50:17,Appointment confirmed via SMS.
+L00011,East Tamaki Respiratory Clinic,2026-03-04 10:11:12,Contacted patient Shane Herd to confirm appointment time.
+L00012,Northshore Community Health,2026-05-30 06:10:40,"Insurance pre-approval needed, policy POL-99327744 on file."
+L00013,Northshore Community Health,2026-07-20 07:43:53,"Patient phone (06) 903 8430 on file, left voicemail reminder."
+L00014,East Tamaki Respiratory Clinic,2026-01-27 15:33:30,Appointment confirmed via SMS.
+L00015,Auckland Sleep Centre,2026-02-11 08:19:31,Contacted patient Liam Forbes to confirm appointment time.
+L00016,East Tamaki Respiratory Clinic,2026-06-28 04:46:38,"Routine reminder call, no issues."
+L00017,Auckland Sleep Centre,2026-04-13 06:35:49,"Routine reminder call, no issues."
+L00018,East Tamaki Respiratory Clinic,2026-04-05 00:07:48,"Routine reminder call, no issues."
+L00019,Northshore Community Health,2026-07-11 04:56:41,"Insurance pre-approval needed, policy POL-80039190 on file."
+L00020,East Tamaki Respiratory Clinic,2026-06-27 13:22:33,"Insurance pre-approval needed, policy POL-62293851 on file."
+L00021,East Tamaki Respiratory Clinic,2026-04-03 02:17:49,Reschedule requested - patient email smithisaac@example.net used for confirmation.
+L00022,East Tamaki Respiratory Clinic,2026-03-30 18:23:47,Appointment confirmed via SMS.
+L00023,East Tamaki Respiratory Clinic,2026-05-03 14:47:28,"Insurance pre-approval needed, policy POL-75719056 on file."
+L00024,East Tamaki Respiratory Clinic,2026-04-11 02:04:34,Appointment confirmed via SMS.
+L00025,Northshore Community Health,2026-05-28 23:50:20,Appointment confirmed via SMS.
+L00026,Auckland Sleep Centre,2026-05-02 17:51:52,Contacted patient Fiona Vercoe-Turner to confirm appointment time.
+L00027,East Tamaki Respiratory Clinic,2026-04-02 02:53:02,Contacted patient Mia Dean to confirm appointment time.
+L00028,Auckland Sleep Centre,2026-02-02 17:50:16,Contacted patient Troy Judd-Williams to confirm appointment time.
+L00029,East Tamaki Respiratory Clinic,2026-04-16 19:05:11,Reschedule requested - patient email richard22@example.net used for confirmation.
+L00030,Auckland Sleep Centre,2026-03-30 04:59:25,Appointment confirmed via SMS.
+L00031,East Tamaki Respiratory Clinic,2026-04-27 08:34:20,Contacted patient Jeremy Barnes to confirm appointment time.
+L00032,East Tamaki Respiratory Clinic,2026-04-13 03:09:13,"Routine reminder call, no issues."
+L00033,Northshore Community Health,2026-04-16 16:28:26,Contacted patient Jason Green to confirm appointment time.
+L00034,East Tamaki Respiratory Clinic,2026-03-26 08:20:22,Appointment confirmed via SMS.
+L00035,Auckland Sleep Centre,2026-07-02 14:05:08,Contacted patient Jessica Tait to confirm appointment time.
+L00036,Auckland Sleep Centre,2026-03-22 22:52:05,Reschedule requested - patient email hlaurenson@example.net used for confirmation.
+L00037,East Tamaki Respiratory Clinic,2026-02-13 20:34:10,Reschedule requested - patient email edward08@example.net used for confirmation.
+L00038,Northshore Community Health,2026-02-04 18:00:47,"Patient phone +64 27 6009792 on file, left voicemail reminder."
+L00039,East Tamaki Respiratory Clinic,2026-05-15 21:14:09,Contacted patient Christopher Scott to confirm appointment time.
+L00040,East Tamaki Respiratory Clinic,2026-03-14 11:29:13,"Patient phone +64204778487 on file, left voicemail reminder."
+L00041,Northshore Community Health,2026-06-26 08:19:22,"Routine reminder call, no issues."
+L00042,East Tamaki Respiratory Clinic,2026-07-13 05:29:39,"Routine reminder call, no issues."
+L00043,Auckland Sleep Centre,2026-03-16 09:59:47,"Insurance pre-approval needed, policy POL-17115307 on file."
+L00044,East Tamaki Respiratory Clinic,2026-03-23 01:34:48,Reschedule requested - patient email hfleming@example.net used for confirmation.
+L00045,Northshore Community Health,2026-04-29 00:35:44,"Insurance pre-approval needed, policy POL-75863683 on file."
+L00046,Northshore Community Health,2026-02-10 23:27:48,Contacted patient Tyler Whittaker to confirm appointment time.
+L00047,Auckland Sleep Centre,2026-05-07 01:59:44,Reschedule requested - patient email evansglenn@example.com used for confirmation.
+L00048,Northshore Community Health,2026-04-21 11:33:57,Contacted patient Jessica Armstrong to confirm appointment time.
+L00049,Auckland Sleep Centre,2026-02-06 14:49:11,Appointment confirmed via SMS.
+L00050,Auckland Sleep Centre,2026-07-07 09:32:06,"Routine reminder call, no issues."
+L00051,Auckland Sleep Centre,2026-02-16 19:31:08,"Routine reminder call, no issues."
+L00052,Auckland Sleep Centre,2026-03-27 17:58:43,"Routine reminder call, no issues."
+L00053,Auckland Sleep Centre,2026-05-11 13:18:52,"Routine reminder call, no issues."
+L00054,East Tamaki Respiratory Clinic,2026-04-06 15:10:39,Contacted patient Jonathan McKinnon to confirm appointment time.
+L00055,Auckland Sleep Centre,2026-04-29 09:07:03,"Insurance pre-approval needed, policy POL-01208334 on file."
+L00056,Auckland Sleep Centre,2026-02-27 08:27:00,Contacted patient Mikaere Dunn to confirm appointment time.
+L00057,Northshore Community Health,2026-02-24 21:27:12,Contacted patient Adam Pike-Mitchell to confirm appointment time.
+L00058,East Tamaki Respiratory Clinic,2026-05-20 21:29:08,Reschedule requested - patient email russellbrandon@example.org used for confirmation.
+L00059,East Tamaki Respiratory Clinic,2026-07-14 10:24:13,Appointment confirmed via SMS.
+L00060,East Tamaki Respiratory Clinic,2026-07-14 16:00:08,"Insurance pre-approval needed, policy POL-91210062 on file."
+L00061,Northshore Community Health,2026-06-12 01:49:43,Reschedule requested - patient email dyersophie@example.org used for confirmation.
+L00062,Northshore Community Health,2026-02-22 12:38:40,"Patient phone 5329832 on file, left voicemail reminder."
+L00063,Auckland Sleep Centre,2026-05-04 18:22:56,Appointment confirmed via SMS.
+L00064,Auckland Sleep Centre,2026-04-01 04:05:53,"Routine reminder call, no issues."
+L00065,Auckland Sleep Centre,2026-03-29 21:01:04,Reschedule requested - patient email mstewart@example.com used for confirmation.
+L00066,Auckland Sleep Centre,2026-06-16 01:06:28,Reschedule requested - patient email stacey33@example.org used for confirmation.
+L00067,East Tamaki Respiratory Clinic,2026-06-27 10:37:14,Reschedule requested - patient email zparkes@example.net used for confirmation.
+L00068,East Tamaki Respiratory Clinic,2026-06-29 04:04:02,Contacted patient Stephen Jensen to confirm appointment time.
+L00069,East Tamaki Respiratory Clinic,2026-06-02 15:38:50,"Insurance pre-approval needed, policy POL-82497285 on file."
+L00070,Northshore Community Health,2026-06-24 12:41:48,Reschedule requested - patient email tbradley@example.org used for confirmation.
+L00071,Northshore Community Health,2026-04-30 15:20:52,Contacted patient Anne O'Leary to confirm appointment time.
+L00072,Northshore Community Health,2026-01-03 05:35:56,Contacted patient Peter Batchelar-McKay to confirm appointment time.
+L00073,Auckland Sleep Centre,2026-01-19 23:57:22,Reschedule requested - patient email cfowler@example.org used for confirmation.
+L00074,Northshore Community Health,2026-03-04 15:45:11,Reschedule requested - patient email mooreandrew@example.net used for confirmation.
+L00075,Northshore Community Health,2026-01-26 05:09:10,Reschedule requested - patient email taniasimonsen@example.com used for confirmation.
+L00076,Auckland Sleep Centre,2026-06-15 20:25:41,"Patient phone 09 501 9817 on file, left voicemail reminder."
+L00077,Northshore Community Health,2026-02-15 21:46:13,"Routine reminder call, no issues."
+L00078,Auckland Sleep Centre,2026-04-09 19:20:35,"Insurance pre-approval needed, policy POL-75172579 on file."
+L00079,East Tamaki Respiratory Clinic,2026-07-04 06:39:53,"Patient phone 09 8902355 on file, left voicemail reminder."
+L00080,Auckland Sleep Centre,2026-01-08 06:28:06,Reschedule requested - patient email irickard@example.com used for confirmation.
+L00081,Northshore Community Health,2026-04-30 17:23:27,Contacted patient Mark Hughes to confirm appointment time.
+L00082,Auckland Sleep Centre,2026-03-20 11:41:37,"Patient phone +64-29-138-4215 on file, left voicemail reminder."
+L00083,Auckland Sleep Centre,2026-03-21 16:28:56,Appointment confirmed via SMS.
+L00084,Auckland Sleep Centre,2026-01-09 17:31:52,Appointment confirmed via SMS.
+L00085,East Tamaki Respiratory Clinic,2026-07-19 15:23:33,"Patient phone +64 6 1142241 on file, left voicemail reminder."
+L00086,East Tamaki Respiratory Clinic,2026-02-20 12:22:39,Reschedule requested - patient email jonathan49@example.org used for confirmation.
+L00087,Auckland Sleep Centre,2026-03-18 22:51:54,Contacted patient John Knowles to confirm appointment time.
+L00088,East Tamaki Respiratory Clinic,2026-04-11 05:13:33,Contacted patient Anna Boon to confirm appointment time.
+L00089,Northshore Community Health,2026-04-20 14:49:45,"Patient phone 317 1577 on file, left voicemail reminder."
+L00090,Auckland Sleep Centre,2026-04-03 15:40:58,"Patient phone 07-714-8769 on file, left voicemail reminder."
+L00091,Northshore Community Health,2026-02-14 09:33:58,"Patient phone 04 8958321 on file, left voicemail reminder."
+L00092,Auckland Sleep Centre,2026-02-23 22:47:52,Contacted patient Lynnette Webb-Scott to confirm appointment time.
+L00093,Auckland Sleep Centre,2026-06-18 19:56:58,Appointment confirmed via SMS.
+L00094,Northshore Community Health,2026-04-02 08:36:23,"Routine reminder call, no issues."
+L00095,Auckland Sleep Centre,2026-06-12 00:55:00,"Routine reminder call, no issues."
+L00096,East Tamaki Respiratory Clinic,2026-06-15 07:51:01,"Insurance pre-approval needed, policy POL-36418801 on file."
+L00097,Auckland Sleep Centre,2026-05-23 12:24:30,Appointment confirmed via SMS.
+L00098,East Tamaki Respiratory Clinic,2026-04-06 05:43:17,"Routine reminder call, no issues."
+L00099,Northshore Community Health,2026-07-02 05:33:46,"Insurance pre-approval needed, policy POL-19454676 on file."
+L00100,Northshore Community Health,2026-04-24 07:20:13,"Insurance pre-approval needed, policy POL-91914023 on file."
+L00101,East Tamaki Respiratory Clinic,2026-06-23 11:06:33,"Patient phone (029) 3440192 on file, left voicemail reminder."
+L00102,East Tamaki Respiratory Clinic,2026-06-20 22:49:17,"Patient phone 021-429-2766 on file, left voicemail reminder."
+L00103,Auckland Sleep Centre,2026-05-28 11:59:59,Reschedule requested - patient email bernard41@example.org used for confirmation.
+L00104,Auckland Sleep Centre,2026-05-11 02:07:21,Appointment confirmed via SMS.
+L00105,Northshore Community Health,2026-01-04 07:00:12,"Patient phone 09 138 5258 on file, left voicemail reminder."
+L00106,Auckland Sleep Centre,2026-02-17 07:09:58,Appointment confirmed via SMS.
+L00107,Auckland Sleep Centre,2026-04-18 08:04:53,Reschedule requested - patient email pfitzgerald@example.net used for confirmation.
+L00108,Northshore Community Health,2026-07-10 23:10:45,"Insurance pre-approval needed, policy POL-89257011 on file."
+L00109,Auckland Sleep Centre,2026-04-08 07:43:38,"Insurance pre-approval needed, policy POL-71619347 on file."
+L00110,East Tamaki Respiratory Clinic,2026-06-19 08:21:07,"Patient phone 8569087 on file, left voicemail reminder."
+L00111,Northshore Community Health,2026-01-22 10:27:05,Contacted patient Sarah Findlay to confirm appointment time.
+L00112,Northshore Community Health,2026-05-20 12:33:22,"Patient phone 022 280 6346 on file, left voicemail reminder."
+L00113,Northshore Community Health,2026-06-24 11:50:50,"Insurance pre-approval needed, policy POL-72994147 on file."
+L00114,Northshore Community Health,2026-02-24 23:43:07,Reschedule requested - patient email oconnorisaac@example.net used for confirmation.
+L00115,Auckland Sleep Centre,2026-02-11 07:04:43,"Routine reminder call, no issues."
+L00116,East Tamaki Respiratory Clinic,2026-01-18 16:53:50,Appointment confirmed via SMS.
+L00117,East Tamaki Respiratory Clinic,2026-03-03 06:22:14,Reschedule requested - patient email xevans@example.net used for confirmation.
+L00118,Northshore Community Health,2026-06-24 22:12:38,"Insurance pre-approval needed, policy POL-86270818 on file."
+L00119,Auckland Sleep Centre,2026-02-15 15:15:08,Appointment confirmed via SMS.
+L00120,East Tamaki Respiratory Clinic,2026-01-17 17:51:59,Appointment confirmed via SMS.
+L00121,Auckland Sleep Centre,2026-07-19 23:15:01,Reschedule requested - patient email nneal@example.com used for confirmation.
+L00122,East Tamaki Respiratory Clinic,2026-03-19 15:43:24,Contacted patient Arlo Baker to confirm appointment time.
+L00123,Northshore Community Health,2026-05-20 06:18:09,"Insurance pre-approval needed, policy POL-52371130 on file."
+L00124,East Tamaki Respiratory Clinic,2026-03-31 04:58:50,"Patient phone (04) 325 3492 on file, left voicemail reminder."
+L00125,East Tamaki Respiratory Clinic,2026-02-27 20:29:53,Reschedule requested - patient email amysearle@example.com used for confirmation.
+L00126,Northshore Community Health,2026-01-05 19:47:26,Contacted patient Susan Pedersen-Jones to confirm appointment time.
+L00127,Northshore Community Health,2026-02-23 20:04:06,"Patient phone +64 29 827 9907 on file, left voicemail reminder."
+L00128,Auckland Sleep Centre,2026-03-22 10:44:40,Contacted patient Christine Prouse to confirm appointment time.
+L00129,Northshore Community Health,2026-05-23 07:24:11,Contacted patient Matthew Graham to confirm appointment time.
+L00130,Northshore Community Health,2026-07-15 13:34:30,"Insurance pre-approval needed, policy POL-41579769 on file."
+L00131,Auckland Sleep Centre,2026-06-27 19:41:46,Contacted patient Emma Brown to confirm appointment time.
+L00132,Northshore Community Health,2026-06-11 18:24:10,"Routine reminder call, no issues."
+L00133,Auckland Sleep Centre,2026-05-07 17:23:46,Appointment confirmed via SMS.
+L00134,East Tamaki Respiratory Clinic,2026-02-27 14:36:48,"Insurance pre-approval needed, policy POL-36451375 on file."
+L00135,East Tamaki Respiratory Clinic,2026-06-21 05:22:47,Contacted patient Evelyn Steer to confirm appointment time.
+L00136,Auckland Sleep Centre,2026-06-27 21:14:56,Contacted patient Isaac Cameron-O'Leary to confirm appointment time.
+L00137,East Tamaki Respiratory Clinic,2026-02-24 03:31:09,"Patient phone +64 9 1297517 on file, left voicemail reminder."
+L00138,Northshore Community Health,2026-06-22 23:58:12,"Insurance pre-approval needed, policy POL-89945200 on file."
+L00139,Auckland Sleep Centre,2026-01-05 17:37:35,Appointment confirmed via SMS.
+L00140,East Tamaki Respiratory Clinic,2026-02-25 18:48:54,Contacted patient Hamish Lewis-Rogers to confirm appointment time.
+L00141,Auckland Sleep Centre,2026-03-19 09:12:54,Reschedule requested - patient email brett96@example.org used for confirmation.
+L00142,East Tamaki Respiratory Clinic,2026-04-27 13:46:53,"Insurance pre-approval needed, policy POL-51688152 on file."
+L00143,Northshore Community Health,2026-06-19 08:27:11,"Routine reminder call, no issues."
+L00144,East Tamaki Respiratory Clinic,2026-05-19 19:04:26,Reschedule requested - patient email richardsjacqueline@example.org used for confirmation.
+L00145,Northshore Community Health,2026-05-06 06:54:49,Contacted patient Andrew Price to confirm appointment time.
+L00146,East Tamaki Respiratory Clinic,2026-06-10 00:04:01,"Routine reminder call, no issues."
+L00147,East Tamaki Respiratory Clinic,2026-01-30 16:06:09,Appointment confirmed via SMS.
+L00148,East Tamaki Respiratory Clinic,2026-02-16 01:24:11,"Patient phone 1798524 on file, left voicemail reminder."
+L00149,Auckland Sleep Centre,2026-01-13 17:39:00,Appointment confirmed via SMS.
+L00150,Northshore Community Health,2026-02-05 06:07:28,"Patient phone +64 21 1939325 on file, left voicemail reminder."
+L00151,Auckland Sleep Centre,2026-04-20 11:05:44,"Routine reminder call, no issues."
+L00152,Northshore Community Health,2026-06-14 16:49:21,Contacted patient Stuart Wilkinson to confirm appointment time.
+L00153,East Tamaki Respiratory Clinic,2026-05-30 10:25:11,"Insurance pre-approval needed, policy POL-58119549 on file."
+L00154,Auckland Sleep Centre,2026-02-10 20:16:22,Contacted patient John Bush-Hyde to confirm appointment time.
+L00155,Northshore Community Health,2026-02-17 16:13:34,Appointment confirmed via SMS.
+L00156,Northshore Community Health,2026-02-27 05:37:34,Contacted patient Samuel Dalton to confirm appointment time.
+L00157,Northshore Community Health,2026-03-01 07:36:31,Contacted patient Barbara Neal to confirm appointment time.
+L00158,East Tamaki Respiratory Clinic,2026-01-07 20:41:59,Appointment confirmed via SMS.
+L00159,East Tamaki Respiratory Clinic,2026-06-17 06:14:20,Appointment confirmed via SMS.
+L00160,East Tamaki Respiratory Clinic,2026-06-01 23:58:15,"Insurance pre-approval needed, policy POL-27905520 on file."
+L00161,Northshore Community Health,2026-05-13 12:44:28,"Insurance pre-approval needed, policy POL-51066331 on file."
+L00162,Auckland Sleep Centre,2026-01-08 15:43:44,"Patient phone 029 391 1415 on file, left voicemail reminder."
+L00163,East Tamaki Respiratory Clinic,2026-05-06 05:11:05,"Insurance pre-approval needed, policy POL-15495731 on file."
+L00164,Northshore Community Health,2026-03-25 03:22:16,"Insurance pre-approval needed, policy POL-74612435 on file."
+L00165,Auckland Sleep Centre,2026-07-04 13:49:20,"Routine reminder call, no issues."
+L00166,East Tamaki Respiratory Clinic,2026-03-12 03:19:18,"Patient phone (03) 836-6498 on file, left voicemail reminder."
+L00167,Northshore Community Health,2026-05-22 11:17:09,"Routine reminder call, no issues."
+L00168,Auckland Sleep Centre,2026-06-07 14:56:41,Reschedule requested - patient email megan65@example.org used for confirmation.
+L00169,Northshore Community Health,2026-04-11 08:25:59,"Patient phone (04) 160-3242 on file, left voicemail reminder."
+L00170,Northshore Community Health,2026-04-02 16:03:46,Appointment confirmed via SMS.
+L00171,Auckland Sleep Centre,2026-04-02 15:06:08,"Patient phone 06 713-9155 on file, left voicemail reminder."
+L00172,East Tamaki Respiratory Clinic,2026-06-14 13:55:41,"Patient phone +64-9-907-8515 on file, left voicemail reminder."
+L00173,Northshore Community Health,2026-05-01 02:35:28,Reschedule requested - patient email michaelmccarthy@example.com used for confirmation.
+L00174,Auckland Sleep Centre,2026-05-04 04:22:20,Contacted patient Susan Donald to confirm appointment time.
+L00175,Northshore Community Health,2026-05-17 15:32:19,Contacted patient Robyn Morgan to confirm appointment time.
+L00176,Northshore Community Health,2026-02-01 22:27:29,"Routine reminder call, no issues."
+L00177,Auckland Sleep Centre,2026-02-02 18:39:18,"Patient phone (06) 424 2954 on file, left voicemail reminder."
+L00178,Northshore Community Health,2026-04-12 15:59:45,Appointment confirmed via SMS.
+L00179,East Tamaki Respiratory Clinic,2026-03-20 21:27:07,"Routine reminder call, no issues."
+L00180,Auckland Sleep Centre,2026-02-26 16:17:09,"Patient phone 027 7934362 on file, left voicemail reminder."
+L00181,Northshore Community Health,2026-05-29 22:26:12,Contacted patient Flynn Allen to confirm appointment time.
+L00182,East Tamaki Respiratory Clinic,2026-04-28 11:34:22,"Insurance pre-approval needed, policy POL-68785818 on file."
+L00183,Auckland Sleep Centre,2026-04-12 03:09:35,Appointment confirmed via SMS.
+L00184,Auckland Sleep Centre,2026-03-06 01:45:38,"Routine reminder call, no issues."
+L00185,Northshore Community Health,2026-07-02 15:01:28,"Insurance pre-approval needed, policy POL-72358343 on file."
+L00186,Auckland Sleep Centre,2026-03-21 02:56:08,"Insurance pre-approval needed, policy POL-15617364 on file."
+L00187,Northshore Community Health,2026-02-06 14:59:18,"Insurance pre-approval needed, policy POL-83261183 on file."
+L00188,Auckland Sleep Centre,2026-01-03 06:06:35,"Insurance pre-approval needed, policy POL-58012322 on file."
+L00189,East Tamaki Respiratory Clinic,2026-05-29 02:49:16,"Routine reminder call, no issues."
+L00190,Northshore Community Health,2026-02-20 23:40:49,Appointment confirmed via SMS.
+L00191,Auckland Sleep Centre,2026-06-18 14:09:37,Appointment confirmed via SMS.
+L00192,Auckland Sleep Centre,2026-01-31 18:02:24,Reschedule requested - patient email plawson@example.net used for confirmation.
+L00193,Northshore Community Health,2026-06-10 09:37:11,Appointment confirmed via SMS.
+L00194,Auckland Sleep Centre,2026-06-11 15:44:44,"Routine reminder call, no issues."
+L00195,East Tamaki Respiratory Clinic,2026-01-07 22:58:55,"Patient phone +64227321941 on file, left voicemail reminder."
+L00196,Auckland Sleep Centre,2026-02-04 00:49:07,"Patient phone +64 9 574-9956 on file, left voicemail reminder."
+L00197,Auckland Sleep Centre,2026-06-29 23:26:21,"Routine reminder call, no issues."
+L00198,Auckland Sleep Centre,2026-01-20 18:37:44,Reschedule requested - patient email rebeccaeden@example.com used for confirmation.
+L00199,East Tamaki Respiratory Clinic,2026-07-09 11:34:17,Reschedule requested - patient email fmontgomery@example.net used for confirmation.
+L00200,East Tamaki Respiratory Clinic,2026-01-09 01:56:04,"Routine reminder call, no issues."
+L00201,East Tamaki Respiratory Clinic,2026-07-03 10:23:11,"Routine reminder call, no issues."
+L00202,Northshore Community Health,2026-03-23 08:03:23,"Routine reminder call, no issues."
+L00203,Auckland Sleep Centre,2026-03-29 00:43:21,Contacted patient Amy Smith to confirm appointment time.
+L00204,Northshore Community Health,2026-02-09 13:28:44,Appointment confirmed via SMS.
+L00205,Northshore Community Health,2026-02-23 12:07:56,Reschedule requested - patient email pearcerobyn@example.org used for confirmation.
+L00206,East Tamaki Respiratory Clinic,2026-06-11 04:09:38,"Routine reminder call, no issues."
+L00207,Northshore Community Health,2026-07-20 22:02:21,"Insurance pre-approval needed, policy POL-10699606 on file."
+L00208,East Tamaki Respiratory Clinic,2026-04-29 04:29:46,Contacted patient Benjamin Oliver to confirm appointment time.
+L00209,Northshore Community Health,2026-03-18 14:55:46,Contacted patient Suzanne Smith to confirm appointment time.
+L00210,Auckland Sleep Centre,2026-01-11 19:57:54,Contacted patient Benjamin Wilkinson-Olsen to confirm appointment time.
+L00211,Northshore Community Health,2026-06-24 06:31:51,Reschedule requested - patient email holly81@example.net used for confirmation.
+L00212,Auckland Sleep Centre,2026-05-27 16:05:58,"Patient phone +64 7 393-5449 on file, left voicemail reminder."
+L00213,East Tamaki Respiratory Clinic,2026-07-04 23:00:01,Contacted patient Paula Harris to confirm appointment time.
+L00214,East Tamaki Respiratory Clinic,2026-02-26 01:24:14,Reschedule requested - patient email hforrest@example.com used for confirmation.
+L00215,Auckland Sleep Centre,2026-02-16 02:58:47,"Routine reminder call, no issues."
+L00216,Auckland Sleep Centre,2026-01-19 21:27:38,"Routine reminder call, no issues."
+L00217,Northshore Community Health,2026-05-12 04:44:27,"Patient phone 806-7949 on file, left voicemail reminder."
+L00218,East Tamaki Respiratory Clinic,2026-05-31 09:17:34,Appointment confirmed via SMS.
+L00219,Northshore Community Health,2026-02-03 01:40:28,Reschedule requested - patient email twidlepenelope@example.net used for confirmation.
+L00220,Auckland Sleep Centre,2026-06-22 12:31:07,Contacted patient Wayne Douglas to confirm appointment time.
+L00221,East Tamaki Respiratory Clinic,2026-02-05 08:24:55,"Patient phone 04-526-0856 on file, left voicemail reminder."
+L00222,Auckland Sleep Centre,2026-04-26 17:47:17,"Insurance pre-approval needed, policy POL-59332808 on file."
+L00223,East Tamaki Respiratory Clinic,2026-04-15 13:56:30,"Patient phone 09 293 7886 on file, left voicemail reminder."
+L00224,Auckland Sleep Centre,2026-04-29 07:11:50,Contacted patient Gordon Simmons to confirm appointment time.
+L00225,East Tamaki Respiratory Clinic,2026-06-30 10:52:15,"Routine reminder call, no issues."
+L00226,East Tamaki Respiratory Clinic,2026-01-28 03:50:36,"Patient phone 03 9398402 on file, left voicemail reminder."
+L00227,East Tamaki Respiratory Clinic,2026-03-23 19:09:25,Contacted patient Benjamin Hooper-Lowe to confirm appointment time.
+L00228,East Tamaki Respiratory Clinic,2026-02-01 12:21:41,Contacted patient Victoria Patchett to confirm appointment time.
+L00229,Auckland Sleep Centre,2026-03-16 22:48:18,Contacted patient Lance Rickard to confirm appointment time.
+L00230,Auckland Sleep Centre,2026-07-11 09:34:54,Appointment confirmed via SMS.
+L00231,East Tamaki Respiratory Clinic,2026-01-26 09:12:18,Reschedule requested - patient email rmitchell@example.net used for confirmation.
+L00232,East Tamaki Respiratory Clinic,2026-01-21 03:23:46,Reschedule requested - patient email oliviamiles@example.com used for confirmation.
+L00233,Auckland Sleep Centre,2026-05-03 19:35:19,"Routine reminder call, no issues."
+L00234,Northshore Community Health,2026-01-11 19:47:34,Reschedule requested - patient email cairnsjames@example.net used for confirmation.
+L00235,East Tamaki Respiratory Clinic,2026-02-07 03:42:57,Contacted patient Joanne Smith to confirm appointment time.
+L00236,Auckland Sleep Centre,2026-01-26 13:12:34,"Insurance pre-approval needed, policy POL-27606032 on file."
+L00237,Auckland Sleep Centre,2026-06-16 06:14:04,Reschedule requested - patient email melissa61@example.net used for confirmation.
+L00238,Auckland Sleep Centre,2026-07-17 15:16:23,"Patient phone 310-9193 on file, left voicemail reminder."
+L00239,Auckland Sleep Centre,2026-02-26 13:19:13,"Patient phone 9496854 on file, left voicemail reminder."
+L00240,Auckland Sleep Centre,2026-03-17 21:19:35,Contacted patient John Davey to confirm appointment time.
+L00241,Northshore Community Health,2026-06-12 14:31:22,Contacted patient Michael Cameron to confirm appointment time.
+L00242,East Tamaki Respiratory Clinic,2026-03-21 17:41:13,Contacted patient Chelsea Fowler to confirm appointment time.
+L00243,Auckland Sleep Centre,2026-01-12 12:41:22,Contacted patient Christine Burr to confirm appointment time.
+L00244,Auckland Sleep Centre,2026-05-28 03:48:57,Appointment confirmed via SMS.
+L00245,Northshore Community Health,2026-03-15 15:35:00,"Routine reminder call, no issues."
+L00246,Northshore Community Health,2026-02-19 02:40:44,Contacted patient Kurt Pike to confirm appointment time.
+L00247,East Tamaki Respiratory Clinic,2026-06-30 07:17:04,Appointment confirmed via SMS.
+L00248,Northshore Community Health,2026-04-02 00:37:21,Appointment confirmed via SMS.
+L00249,Auckland Sleep Centre,2026-01-16 23:28:47,Reschedule requested - patient email xharper@example.com used for confirmation.
+L00250,East Tamaki Respiratory Clinic,2026-04-14 03:48:11,"Routine reminder call, no issues."
+L00251,Auckland Sleep Centre,2026-05-08 20:45:04,Appointment confirmed via SMS.
+L00252,Auckland Sleep Centre,2026-01-05 14:49:46,"Insurance pre-approval needed, policy POL-72129694 on file."
+L00253,East Tamaki Respiratory Clinic,2026-05-13 07:10:38,"Routine reminder call, no issues."
+L00254,Northshore Community Health,2026-05-18 17:41:36,Contacted patient Glen Edwards to confirm appointment time.
+L00255,East Tamaki Respiratory Clinic,2026-06-01 19:19:13,"Patient phone 03 690-9022 on file, left voicemail reminder."
+L00256,Northshore Community Health,2026-07-09 18:12:22,Contacted patient Deborah Olsen to confirm appointment time.
+L00257,Northshore Community Health,2026-05-07 21:44:11,"Routine reminder call, no issues."
+L00258,Auckland Sleep Centre,2026-03-20 19:50:38,"Insurance pre-approval needed, policy POL-70448642 on file."
+L00259,East Tamaki Respiratory Clinic,2026-06-29 16:38:03,Contacted patient Olivia Holland to confirm appointment time.
+L00260,East Tamaki Respiratory Clinic,2026-05-30 09:20:15,"Routine reminder call, no issues."
+L00261,Northshore Community Health,2026-05-24 04:49:55,Appointment confirmed via SMS.
+L00262,East Tamaki Respiratory Clinic,2026-03-17 11:58:21,"Patient phone (020) 770-1765 on file, left voicemail reminder."
+L00263,Northshore Community Health,2026-03-04 16:02:42,"Routine reminder call, no issues."
+L00264,Auckland Sleep Centre,2026-03-26 03:32:00,"Patient phone 3104275 on file, left voicemail reminder."
+L00265,Northshore Community Health,2026-05-27 13:34:52,Contacted patient Steven Bartlett to confirm appointment time.
+L00266,Auckland Sleep Centre,2026-01-18 02:13:34,"Patient phone 353 1312 on file, left voicemail reminder."
+L00267,Auckland Sleep Centre,2026-05-06 14:00:23,Reschedule requested - patient email ariki39@example.org used for confirmation.
+L00268,East Tamaki Respiratory Clinic,2026-07-14 00:23:09,Contacted patient Adrian Woods to confirm appointment time.
+L00269,Auckland Sleep Centre,2026-01-07 20:29:55,"Patient phone +64 4 625 2571 on file, left voicemail reminder."
+L00270,East Tamaki Respiratory Clinic,2026-01-24 06:31:22,"Routine reminder call, no issues."
+L00271,Northshore Community Health,2026-06-11 03:05:12,Appointment confirmed via SMS.
+L00272,East Tamaki Respiratory Clinic,2026-01-26 02:16:22,"Insurance pre-approval needed, policy POL-51611738 on file."
+L00273,East Tamaki Respiratory Clinic,2026-03-05 18:04:15,Reschedule requested - patient email sharonjackson@example.org used for confirmation.
+L00274,Northshore Community Health,2026-06-21 09:55:23,"Insurance pre-approval needed, policy POL-79404519 on file."
+L00275,Auckland Sleep Centre,2026-03-10 05:38:10,"Routine reminder call, no issues."
+L00276,East Tamaki Respiratory Clinic,2026-06-07 02:43:41,"Routine reminder call, no issues."
+L00277,Northshore Community Health,2026-05-16 08:59:19,Reschedule requested - patient email nathan49@example.org used for confirmation.
+L00278,Northshore Community Health,2026-02-27 05:33:49,Contacted patient Nicole Bright to confirm appointment time.
+L00279,Northshore Community Health,2026-06-15 18:43:49,Reschedule requested - patient email alanmcgill@example.net used for confirmation.
+L00280,Northshore Community Health,2026-04-30 15:42:12,"Patient phone +64 21 7195243 on file, left voicemail reminder."
+L00281,Auckland Sleep Centre,2026-03-18 21:41:06,"Routine reminder call, no issues."
+L00282,East Tamaki Respiratory Clinic,2026-03-06 12:24:28,Appointment confirmed via SMS.
+L00283,Auckland Sleep Centre,2026-02-07 14:37:53,Reschedule requested - patient email brent09@example.org used for confirmation.
+L00284,East Tamaki Respiratory Clinic,2026-01-23 05:31:47,"Patient phone 03 7555356 on file, left voicemail reminder."
+L00285,Northshore Community Health,2026-06-25 12:10:54,Contacted patient Sophia Best to confirm appointment time.
+L00286,Auckland Sleep Centre,2026-06-05 09:48:35,"Patient phone 850 5739 on file, left voicemail reminder."
+L00287,Auckland Sleep Centre,2026-01-13 07:53:30,Appointment confirmed via SMS.
+L00288,Auckland Sleep Centre,2026-01-12 08:22:00,Appointment confirmed via SMS.
+L00289,Northshore Community Health,2026-01-26 02:44:25,Contacted patient Timothy Webb to confirm appointment time.
+L00290,Auckland Sleep Centre,2026-02-04 14:50:22,"Insurance pre-approval needed, policy POL-15351635 on file."
+L00291,Auckland Sleep Centre,2026-06-14 13:09:22,Contacted patient Pauline Arnott to confirm appointment time.
+L00292,East Tamaki Respiratory Clinic,2026-03-27 00:20:07,"Routine reminder call, no issues."
+L00293,East Tamaki Respiratory Clinic,2026-05-27 07:10:44,Contacted patient Morgan Moore to confirm appointment time.
+L00294,East Tamaki Respiratory Clinic,2026-06-02 08:21:59,"Insurance pre-approval needed, policy POL-58342810 on file."
+L00295,Northshore Community Health,2026-01-22 00:27:56,"Insurance pre-approval needed, policy POL-18691188 on file."
+L00296,Northshore Community Health,2026-03-07 07:57:04,"Routine reminder call, no issues."
+L00297,Northshore Community Health,2026-04-04 12:56:06,Appointment confirmed via SMS.
+L00298,Auckland Sleep Centre,2026-02-15 07:02:54,Reschedule requested - patient email christineboyce@example.net used for confirmation.
+L00299,Northshore Community Health,2026-02-18 15:17:17,"Patient phone (029) 519 2676 on file, left voicemail reminder."
+L00300,Auckland Sleep Centre,2026-03-22 13:42:08,Appointment confirmed via SMS.
