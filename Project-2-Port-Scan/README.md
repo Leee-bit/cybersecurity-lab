@@ -15,14 +15,6 @@ Simulate multiple types of network reconnaissance using Nmap, capture the scan t
 
 A port scan is a reconnaissance technique where an attacker sends packets to a range of ports on a target system to discover which services are running. It is typically the **first step in an attack** — before exploiting anything, attackers need to know what doors are open.
 
-**Think of it like a burglar:**
-```
-Normal person:      walks to front door → knocks → enters
-Burglar (attacker): tries every door and window on the building
-                    notes which ones are unlocked
-                    plans the break-in based on findings
-```
-
 **Why it matters for SOC analysts:**
 Detecting port scans gives you early warning of an incoming attack — before any exploitation happens. It is one of the most valuable detection capabilities a SOC can have.
 
