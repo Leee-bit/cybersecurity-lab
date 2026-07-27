@@ -1,4 +1,4 @@
-# Project 3 — Reverse Shell Network Detection
+# Project 4 — Reverse Shell Network Detection
 
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 ![Difficulty](https://img.shields.io/badge/Difficulty-Intermediate-orange)
