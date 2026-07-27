@@ -219,6 +219,6 @@ Metasploitable2's default logging doesn't clearly surface this activity at the h
 
 ## ➡️ Next Project
 
-[Project 4 — End-to-End SOC Investigation Simulation](../Project-4-SOC-Investigation/)
+[Project 5 — End-to-End SOC Investigation Simulation](../Project-4-SOC-Investigation/)
 
 Chain together a full attack (exploitation → reverse shell → persistence) and build a complete incident timeline using both host and network evidence.
