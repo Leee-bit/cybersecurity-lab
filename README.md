@@ -92,9 +92,9 @@ A network packet analyser that captures and displays all network traffic in real
 |---|---------|---------------|--------|
 | 0 | [Lab Environment Setup](./Week-0-Lab-Setup/) | Virtualization, Networking, SIEM Setup | ✅ Complete |
 | 1 | [SSH Brute-Force Detection in Splunk](./Project-1-SSH-Bruteforce/) | Splunk SPL, Auth Log Analysis, Alerting | ✅ Complete |
-| 2 | Port Scan Detection Engineering | Nmap, SIEM Queries, False Positive Tuning | ✅ Complete |
-| 3 | Reverse Shell Network Detection | Netcat, Wireshark, Packet Analysis | ✅ Complete |
-| 4 | End-to-End SOC Investigation Simulation | Full Attack Chain, Incident Timeline | ✅ Complete |
+| 2 | [Port Scan Detection Engineering](./Project-2-Port-Scan/) | Nmap, SIEM Queries, False Positive Tuning | ✅ Complete |
+| 3 | [Reverse Shell Network Detection](./Project4-Reverse-Shell/) | Netcat, Wireshark, Packet Analysis | ✅ Complete |
+| 4 | [End-to-End SOC Investigation Simulation](./Project5-SOC-Investigation/) | Full Attack Chain, Incident Timeline | ✅ Complete |
 | 5 | Custom Log-Based Intrusion Detection Script | Python/Bash, Log Parsing, SIEM Integration | 🔄 In Progress |
 | 6 | Beaconing Traffic Detection Lab | C2 Detection, Time-Based Analysis | ⏳ Upcoming |
 | 7 | Exploitation Visibility Analysis | Log Coverage Gaps, Detection Engineering | ⏳ Upcoming |
