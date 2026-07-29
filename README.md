@@ -91,11 +91,11 @@ A network packet analyser that captures and displays all network traffic in real
 | # | Project | Skills Covered | Status |
 |---|---------|---------------|--------|
 | 0 | [Lab Environment Setup](./Week-0-Lab-Setup/) | Virtualization, Networking, SIEM Setup | ✅ Complete |
-| 1 | [SSH Brute-Force Detection in Splunk](./Project-1-SSH-Bruteforce/) | Splunk SPL, Auth Log Analysis, Alerting | 🔄 In Progress |
-| 2 | Port Scan Detection Engineering | Nmap, SIEM Queries, False Positive Tuning | ⏳ Upcoming |
-| 3 | Reverse Shell Network Detection | Netcat, Wireshark, Packet Analysis | ⏳ Upcoming |
-| 4 | End-to-End SOC Investigation Simulation | Full Attack Chain, Incident Timeline | ⏳ Upcoming |
-| 5 | Custom Log-Based Intrusion Detection Script | Python/Bash, Log Parsing, SIEM Integration | ⏳ Upcoming |
+| 1 | [SSH Brute-Force Detection in Splunk](./Project-1-SSH-Bruteforce/) | Splunk SPL, Auth Log Analysis, Alerting | ✅ Complete |
+| 2 | Port Scan Detection Engineering | Nmap, SIEM Queries, False Positive Tuning | ✅ Complete |
+| 3 | Reverse Shell Network Detection | Netcat, Wireshark, Packet Analysis | ✅ Complete |
+| 4 | End-to-End SOC Investigation Simulation | Full Attack Chain, Incident Timeline | ✅ Complete |
+| 5 | Custom Log-Based Intrusion Detection Script | Python/Bash, Log Parsing, SIEM Integration | 🔄 In Progress |
 | 6 | Beaconing Traffic Detection Lab | C2 Detection, Time-Based Analysis | ⏳ Upcoming |
 | 7 | Exploitation Visibility Analysis | Log Coverage Gaps, Detection Engineering | ⏳ Upcoming |
 | 8 | Web Attack Detection in SIEM | SQLi/XSS Detection, HTTP Log Analysis | ⏳ Upcoming |
