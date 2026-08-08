@@ -230,9 +230,17 @@ A detection tool that only reacts to a static snapshot and a detection tool that
 
 ---
 
-## ➡️ Next Project
+📝 Notes
 
-Continue building network-layer detection capability (Zeek/Suricata) or extend this Python IDS with a second detection module, tying host-based scripting skills together with the network-layer work from earlier projects.
+Quick definitions of new terms/concepts encountered in this project:
+
+Regex (Regular Expression) — A pattern-matching language for finding, extracting, or validating specific chunks of text (like an IP address or timestamp) inside a larger block of text.
+Sliding Window (detection) — A method of checking events against nearby events in time, rather than a simple total count, to answer "how many things happened within the last X seconds?"
+defaultdict — A Python dictionary that automatically creates a default value (e.g., an empty list) for a new key the first time it's used, instead of throwing an error.
+Polling loop — Repeatedly checking for new data at a fixed interval (e.g., once per second), rather than continuously busy-checking — keeps CPU usage low while still reacting quickly.
+tail -f (concept) — Watching a file for new lines as they're written, rather than reading the file once and stopping — the model our continuous IDS script's file-reading logic was based on.
+IDS Script vs. IDS System — A script runs once against a static snapshot of data; a system runs continuously, reacting to new data in real time. Same detection logic can power either.
+Hydra vs. Metasploit — Hydra is a credential-guessing tool (tries many username/password combinations against a working login); Metasploit is an exploitation framework (abuses a flaw in software to gain access, no valid credentials needed).
 
 ---
 
